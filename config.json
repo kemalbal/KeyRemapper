@@ -1,0 +1,75 @@
+{
+    "profiles": {
+        "test": {
+            "c": {
+                "actions": [
+                    {"action": "write", "text": "cc"},
+                    {"action": "press", "key": "enter"}
+                ]
+            },
+            "k": {
+                "actions": [
+                    {"action": "press", "key": "k"},
+                    {"action": "press", "key": "enter"}
+                ]
+            },
+            "s": {
+                "actions": [
+                    {"action": "press", "key": "s"},
+                    {"action": "press", "key": "l"},
+                    {"action": "press", "key": "enter"}
+                ]
+            },
+            "e": {
+                "actions": [
+                    {"action": "press", "key": "s"},
+                    {"action": "press", "key": "l"},
+                    {"action": "press", "key": "e"},
+                    {"action": "press", "key": "enter"}
+                ]
+            },
+            "w": {
+                "actions": [
+                    {"action": "write", "text": "mi"},
+                    {"action": "press", "key": "enter"}
+                ]
+            },
+            "a": {
+                "actions": [
+                    {"action": "press", "key": "a"},
+                    {"action": "press", "key": "k"},
+                    {"action": "press", "key": "enter"}
+                ]
+            },
+            "x": {
+                "actions": [
+                    {"action": "press", "key": "delete"}
+                ]
+            },
+            "l": {
+                "actions": [
+                    {"action": "press", "key": "l"},
+                    {"action": "press", "key": "enter"}
+                ]
+            }
+        },
+        "test2": {
+            "l": {
+                "actions": [
+                    {"action": "write", "text": "lorem"},
+                    {"action": "press", "key": "enter"}
+                ]
+            }
+        }
+    },
+    "active_profile": "test",
+    "profile_switch": {
+        "key_combination": "ctrl+insert",
+        "profiles": ["test", "test1"]
+    },
+    "auto_switch": {
+        "programs": {
+            "test": "test_11.exe"
+        }
+    }
+}
